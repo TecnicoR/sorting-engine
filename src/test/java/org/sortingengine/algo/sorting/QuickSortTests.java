@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class QuickSortTest {
+class QuickSortTests {
   @Test
   void test_quickSort_withEmptyList() {
     List<Integer> emptyList = Collections.emptyList();

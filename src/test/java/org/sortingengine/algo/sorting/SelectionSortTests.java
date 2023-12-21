@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class SelectionSortTest {
+class SelectionSortTests {
   @Test
   void test_selectionSort_withEmptyList() {
     List<Integer> emptyList = Collections.emptyList();
