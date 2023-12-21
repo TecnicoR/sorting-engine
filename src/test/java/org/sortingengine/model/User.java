@@ -1,7 +1,5 @@
 package org.sortingengine.model;
 
-import org.sortingengine.algo.SortingEngine;
-
 /**
  * The User record represents a simple user entity with an ID and a name. It is designed to be used for testing various
  * sorting algorithms within the SortingEngine class. As a record, User provides an efficient and concise way to
@@ -16,8 +14,6 @@ import org.sortingengine.algo.SortingEngine;
  * <p>Since User is defined as a record, it automatically provides implementations of
  * {@code equals()}, {@code hashCode()}, and {@code toString()} methods that are based on
  * the record's state.</p>
- *
- * @see SortingEngine
  */
 public record User( int id, String name ) {
 }
