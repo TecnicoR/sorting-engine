@@ -5,9 +5,9 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Provides an implementation of the Selection Sort algorithm for sorting lists. This class offers a static method to
- * sort any list of objects, given a comparator. It is designed for simplicity and educational purposes rather than
- * optimal performance.
+ * Provides an implementation of the Merge Sort algorithm for sorting lists. This class offers a static method to sort
+ * any list of objects, given a comparator. It is designed for simplicity and educational purposes rather than optimal
+ * performance.
  */
 public final class MergeSort {
 
