@@ -9,7 +9,7 @@ import java.util.List;
  * sort any list of objects, given a comparator. It is designed for simplicity and educational purposes rather than
  * optimal performance.
  */
-public class SelectionSort {
+public final class SelectionSort {
 
   /**
    * Private Constructor to prevent instantiation.
