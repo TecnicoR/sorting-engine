@@ -30,11 +30,9 @@ public final class CountingSort {
    * <p>Note: This method creates a new sorted list and does not modify the original list.</p>
    *
    * <p><b>Time Complexity:</b> O(n log k + k), where n is the number of elements and k is the number of distinct
-   * elements.
-   * The sorting of the map entries (which depends on the comparator) introduces a log k factor.</p>
+   * elements. The sorting of the map entries (which depends on the comparator) introduces a log k factor.</p>
    * <p><b>Space Complexity:</b> O(n + k), for storing the frequency map and the sorted list. The frequency map's size
-   * depends on
-   * the number of distinct elements (k).</p>
+   * depends on the number of distinct elements (k).</p>
    *
    * @param <T>        The type of elements in the list.
    * @param list       The list to be sorted. Must not be null.
